@@ -1,0 +1,962 @@
+body{
+	margin:0;
+	background-color: #e6e6e6;
+}
+
+a, a:hover, a:focus{
+	text-decoration:none;
+	outline:none;
+	color:#c3b598;
+}
+
+.header{
+	background-color:#25211e;
+	padding:40px 0;
+}
+
+.header ul {
+  margin:0;
+}
+
+.header .left_nav li{
+  border-right: 1px solid #5f5134;
+  line-height: 11px;
+}
+
+.cart_option li{
+  border-right: 1px solid #c3b598;
+  line-height: 17px;
+}
+
+.header ul li:last-child, .cart_option li:last-child{
+  border: none;
+}
+
+.left_nav li img, .ryt_nav li img, .cart_option li i{
+	margin-right:7px;
+}
+
+.ryt_nav li:first-child img{
+	margin-left:7px;
+	margin-right:0px;
+}
+
+.header ul li a, .list-inline  li a{
+	color:#c3b598;
+}
+
+.left_nav li, .ryt_nav li, .cart_option li{
+	color:#c3b598;
+	font-size:13px;
+	padding:0 13px;
+}
+
+.search input {
+	background: #1e1a19;
+ border: medium none;
+  color: #64605f;
+  height: 30px;
+  padding-left: 24px;
+}
+.sign_box.email input {
+  background: #1e1a19 url("../img/location.png") no-repeat scroll left 9px top 11px / 7px auto;
+  border: medium none;
+  color: #64605f;
+  height: 30px;
+  padding-left: 24px;
+}
+.sign_box input {
+	background: #1e1a19;
+  border: medium none;
+  color: #64605f;
+  height: 30px;
+  padding-left: 24px;
+}
+.search a, .sign_box a{
+	background-color: #34312c;
+    color: #c3b598;
+    padding: 7px 10px;
+}
+
+.search input::placeholder, .sign_box input::placeholder{
+	color:#64605f;
+	opacity:1;
+}
+
+.content_container {
+  float: left;
+  width: 100%;
+  padding:0 0 30px;
+}
+
+.product ul{
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.product li {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  display: inline-table;
+  float: left;
+  height: 100%;
+  max-height: 350px;
+  overflow: hidden;
+  padding: 0;
+  width: 269.8px;
+}
+
+.product li img {
+  /* height: 100%; */
+  width: 190px;
+}
+
+.brown_btn {
+  background-color: #c2b497;
+  border: medium none;
+  font-weight: 600;
+  margin: 26px 0 0;
+  padding: 9px 26px;
+}
+
+.brown_btn:hover{
+  background-color: #25211E;
+}
+
+.brown_btn a{
+	color:#fff;
+}
+
+.footer{
+	background-color:#25211e;
+	padding:40px 0;
+	width:100%;
+	float:left; 
+}
+
+.footer h6 {
+  color: #fff;
+  font-weight: 600;
+  margin: 30px 0 22px;
+}
+
+.footer ul{
+	margin:0;
+	padding:0;
+}
+
+.footer ul li {
+  color: #939391;
+  float: left;
+  font-size: 11px;
+  font-weight: 600;
+  margin: 0 0 7px;
+  width: 100%;
+}
+
+.footer_icon {
+  margin: 6px 0 0;
+  width: 16%;
+}
+
+.footer_menu{
+	width: 84%;
+}
+
+.signup {
+  border-left: 1px solid #47443f;
+  display: flow-root;
+  padding: 0 0 50px 50px;
+}
+
+.signup h6{
+	margin-bottom:10px;
+}
+
+.signup p{
+	color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.sign_box input{
+  margin-top:20px;
+}
+
+.signup hr {
+  border-color: #484540;
+  display: block;
+  height: 1px;
+  margin: 30px 0 0;
+  width: 100%;
+}
+
+.cart_selection {
+  border-bottom: 1px solid #c8c6c5;
+  border-top: 1px solid #c8c6c5;
+  margin: 6px 0 0;
+  padding: 40px 0;
+  width: 100%;
+  float: left;
+}
+
+.head h5, .head span i{
+	color:#999;
+}
+
+.head a i {
+  font-size: 11px;
+  margin-right: 5px;
+}
+
+.head h5 a {
+	color:#000;
+	font-size: 12px;
+	float:right;
+}
+
+.cart, .account_setting{
+	padding:50px 0 30px;
+}
+
+.quantity{
+	background:url(../img/select_arrow.png) no-repeat scroll right 5px top 15px / 8px auto;
+	-moz-appearance: none;
+    background-color: transparent;
+    border: 2px solid #999;
+    height: 37px;
+    width: 75px;
+	color:#666;
+}
+
+.cart_selection h4 {
+  font-family: "Raleway",sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.product_detail p {
+  color: #999;
+  font-size: 11px;
+  font-weight: 300;
+  margin: 7px 0;
+}
+
+.backorder_detail {
+  color: #838383;
+  font-size: 12px;
+}
+
+.quantity_border{
+	border-left: 1px solid #c2c2c2;
+}
+
+.total_price {
+  color: #555555;
+  font-family: status-bar;
+  font-size: 19px;
+  font-weight: 100;
+}
+
+.order_summary{
+	background-color:#fff;
+	padding:20px;
+}
+
+.order_summary hr{
+	border-color:#e0e0e0;
+}
+
+.order_summary table tr td {
+  border: medium none;
+  color: #666;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 8px 0;
+}
+
+.order_summary table tr td:last-child{
+  text-align:right;
+}
+
+.table select {
+  -moz-appearance: none;
+  background: url(../img/select_arrow1.png) no-repeat scroll right 5px top 9px / 7px auto;
+  border: medium none;
+  color: #b3a689;
+  font-family: message-box;
+  font-size: 13px;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding-right: 15px;
+ -webkit-appearance: none;
+}
+
+.order_price {
+  font-family: icon;
+  font-size: 20px !important;
+  font-weight: 100;
+}
+
+.cart h5 {
+  color: #b3a689;
+  font-family: "Raleway",sans-serif;
+  letter-spacing: 1px;
+}
+
+.panel-title {
+  background: transparent none repeat scroll 0 0;
+
+}
+
+.panel-title a {
+  color: #c1b497;
+  float: left;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 0px 0 10px;
+  width: 100%;
+}
+
+.panel-body {
+  color: #999;
+  font-family: menu;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.panel {
+  background-color: transparent;
+  border: medium none;
+  box-shadow: none;
+  margin-bottom: 20px;
+}
+
+.panel-group {
+  margin-bottom: 0;
+  padding: 12px 0;
+}
+
+.panel-body{
+	padding:0;
+}
+
+.checkout_btn {
+  background-color: #c1b497;
+  color: #fff;
+  display: block;
+  padding: 10px 0;
+}
+
+.checkout_btn:hover{
+  background-color: #9e9174;
+  color: #fff;
+}
+
+.order_btn  p {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.paypal_btn {
+  border: 1px solid #999;
+  display: block;
+  padding: 10px 0;
+}
+
+.paypal_btn img{
+  margin-left:5px;
+}
+
+.panel_box {
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 2px 0 15px;
+}
+
+.panel_box .panel-group {
+  margin-bottom: 0;
+  padding: 18px 10px;
+}
+
+.panel_box > hr {
+  display: flex;
+  margin: 0;
+  width: 100%;
+}
+
+.account_setting  {
+  font-family:"Raleway",sans-serif;
+}
+
+.account_setting h5 {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0px 0 0;
+}
+
+.account_setting label {
+  font-weight:300;
+  font-size:11px;
+  color:#060606;
+}
+
+.account_setting select {
+  -moz-appearance: none;
+  background: rgb(255, 255, 255) url("../img/setng_arrow.png") no-repeat scroll right 4px top 12px;
+  -webkit-appearance: none;
+  color:#c1b497;
+}
+
+.account_setting hr {
+  border-color: #fff;
+  border-width: 2px;
+  margin: 22px 0 40px;
+  width: 100%;
+}
+
+.account_setting .form-group i{
+  color: #999;
+  font-size: 11px;
+}
+
+.account_setting .form-group a {
+  color: #c1b497;
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 42px;
+  margin: 50px 0 0;
+}
+
+.border_right{
+	border-right:1px solid #fff;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  margin: -4px 8px 0 0;
+  vertical-align: middle;
+}
+
+/* ====popup========== */
+.wallet-popup {
+  padding: 140px 0;
+}
+.wallet-popup input {
+  border: medium none;
+  border-radius: 1px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.wallet-popup input[type="checkbox"] {
+    float: left;
+    height: 22px;
+    margin: 0 8px 0 0;
+    width: 16px;
+}
+.wallet-popup label {
+  font-weight: 500;
+  font-family: "Raleway",sans-serif;
+  text-transform: uppercase;
+}
+.wallet-popup h5 {
+  color: #817f7f;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+.wallet-popup h4 {
+	color:#bababa;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+}
+.privacy_c {
+  color: #c1b497;
+}	
+.select_one {
+  font-size: 14px !important;
+  text-transform: none !important;
+}
+.wallet-popup .btn-primary {
+  background:#c1b497;
+  border-radius: 0;
+  border:none;
+  height: 54px;
+  margin: 0 auto;
+  width: 53%;
+}
+.wallet-popup .btn-primary:active{
+	background:#c1b497;
+}
+.wallet_modal select.color_s {
+    -moz-appearance: none;
+    background: rgb(245, 245, 245) url("../img/setng_arrow.png") no-repeat scroll right 4px top 12px !important;
+	-webkit-appearance: none;
+	color:#c1b497;
+}
+.wallet_modal select {
+    -moz-appearance: none;
+    background: rgb(245, 245, 245) url("../img/setng_arrow.png") no-repeat scroll right 4px top 12px !important;
+	-webkit-appearance: none;
+	color:#c1b497;
+	
+}
+.modal-body.wallet_modal label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.modal-body.wallet_modal .fa.fa-question-circle-o {
+  font-size: 14px;
+  font-weight: normal;
+  color:#c1b497;
+}
+.popup_cnt {
+  font-weight: 600;
+  margin-left: 18px;
+}
+.billing {
+  font-size: 14px;
+  font-weight: 600;
+}
+.cnt_i {
+	color:#999999;
+  font-style: italic;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.arrow_f {
+    -moz-appearance: none;
+    background: rgb(245, 245, 245) url("../img/setng_arrow.png") no-repeat scroll right 4px top 12px !important;
+	
+}
+.phnew {
+  margin: 21px 0 0;
+}
+.modal-body.wallet_modal {
+  padding: 50px;
+}
+.modal-dialog {
+  width: 55%;
+}
+.wallet_modal .btn-primary {
+  background:#c1b497;
+  border-radius: 0;
+  border:none;
+  height: 54px;
+  margin: 0 auto;
+  width: 40%;
+}
+.modal-body.wallet_modal .arrow_f {
+  border: none;
+  border-radius: 5px;
+  height: 37px;
+  width: 248px;
+}
+.account_setting.country-select .selected-flag {
+  height: 100%;
+  padding: 0 0 0 8px;
+  position: relative;
+  width: 214px;
+  z-index: 1;
+}
+.account_setting .selected-flag {
+  width: 214px !important;
+}
+.black_w {
+  color: #222 !important;
+}
+.account_setting .flag-dropdown{
+	width:216px !important;
+}
+.account_setting .arrow_f {
+  border: none;
+  border-radius: 5px;
+  height: 37px;
+  width: 216px;
+}
+.modal-body.wallet_modal input {
+  background: #f5f5f5 none repeat scroll 0 0;
+  border: medium none;
+  
+}
+.modal-body.wallet_modal select {
+ 
+  border: medium none;
+  
+}
+.form-control {
+  box-shadow: 0 0 0 0 !important;
+}
+.main_walt .bdr_wlt {
+    border: 1px solid #fff;
+	padding:0px !important;
+}
+.img_sizew {
+  border-bottom: 1px solid #fff;
+  height: 360px;
+  padding: 16px 0 0;
+}
+/* ====popup-end========== */
+/* ====wallet========== */
+.wallet_card {
+  padding: 0 0 130px;
+}
+.wallet_card h3 {
+  font-family: "Raleway",sans-serif;
+  font-size: 28px;
+  font-weight: 200;
+}
+.border_l {
+  border: 1px solid #c2b497;
+  margin-top: 13px;
+  width: 12%;
+}
+.cnt_c {
+  border: 1px solid #fff;
+  margin: 0 auto;
+  width: 87%;
+}
+.cnt_c h4 {
+	color:#c0b599;
+  margin: 0 auto;
+  padding: 90px 0 27px;
+  width: 50%;
+  font-family: "Raleway",sans-serif;
+}
+.cnt_c p {
+  font-style: italic;
+  font-family: "Raleway",sans-serif;
+  line-height: 18px;
+  margin: 0 auto;
+  padding: 0 0 110px;
+  width: 53%;
+}
+/* ====wallet-end========== */
+/* ====sign-in========== */
+.sensitive_s {
+  text-transform: none;
+  color:#aeaeae !important;
+  font-style: italic;
+}
+.sing_wallet .btn-primary {
+  font-size: 13px;
+  height: 50%;
+  margin: 6px 0 0;
+  text-transform: uppercase;
+  width: 45%;
+}
+.snd_c {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important; 
+  border: 2px solid #aca9a7 !important;
+  color: #222;
+}
+.wallet-popup h6 {
+  color: #c1b497;
+  font-weight: bold;
+  margin: 32px 0 0;
+}
+.modal-dialog.wallet-popup.form_w {
+  padding: 0;
+}
+.modal-dialog.wallet-popup.form_w {
+  padding: 0;
+  width: 50%;
+}
+.modal-dialog.wallet-popup.form_w .modal-content {
+  padding: 0 40px;
+}
+.modal-dialog.wallet-popup.form_w input {
+  background: #f5f5f5 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+}
+.modal-header {
+  border: medium none;
+}
+.intl-tel-input.separate-dial-code .selected-flag {
+  display: table;
+  background:none !important;
+}
+/* ====sign-in end========== */
+/* ====product========== */
+.carousel-inner,.carousel,.item,.fill {
+  height:100%;
+  width:100%;
+  background-position:center center;
+  background-size:cover;
+}
+.slide-wrapper{display:inline;}
+.slide-wrapper .container{padding:0px;}
+
+/*------------------------------ vertical bootstrap slider----------------------------*/
+
+.carousel-inner> .item.next ,  .carousel-inner > .item.active.right{ transform: translate3d(0, 100%, 0); -webkit-transform: translate3d(0, 100%, 0); -ms-transform: translate3d(0, 100%, 0); -moz-transform: translate3d(0, 100%, 0); -o-transform: translate3d(0, 100%, 0);  top: 0;}
+.carousel-inner > .item.prev ,.carousel-inner > .item.active.left{ transform: translate3d(0,-100%, 0); -webkit-transform: translate3d(0,-100%, 0);  -moz-transform: translate3d(0,-100%, 0);-ms-transform: translate3d(0,-100%, 0); -o-transform: translate3d(0,-100%, 0); top: 0;}
+.carousel-inner > .item.next.left , .carousel-inner > .item.prev.right , .carousel-inner > .item.active{transform:translate3d(0,0,0); -webkit-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);; -moz-transform:translate3d(0,0,0); -o-transform:translate3d(0,0,0); top:0;}
+
+/*------------------------------- vertical carousel indicators ------------------------------*/
+.carousel-indicators{
+position:absolute;
+top:0;
+bottom:0;
+margin:auto;
+height:20px;
+ left:auto;
+width:auto;
+}
+.carousel-indicators li{display:block; margin-bottom:5px; border:1px solid #c1b396; }
+.carousel-indicators li.active{margin-bottom:5px; background:#c1b396;}
+.wallet_pct {
+  padding: 90px 0;
+}
+h4.cotton_s {
+  color: #554a33;
+  font-family: "Raleway",sans-serif;
+  font-size: 25px;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+.wallet_pct .btn-secondary {
+  background: #c1b497 none repeat scroll 0 0;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  width: 40%;
+}
+.share_wallet {
+  margin: 20px 0 0;
+}
+.share_wallet a {
+  background: #fff none repeat scroll 0 0;
+  padding: 10px 19px;
+}
+.share_wallet .fa {
+  padding: 0 7px 0 0;
+}
+.padding_none{
+	padding:0px ;
+}
+/* ====product end========== */
+/* ====story========== */
+
+.wallet_story h5 {
+  border-bottom: 1px solid #c1b497;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0 0 7px;
+  width: 20%;
+  font-family: "Raleway",sans-serif;
+}
+.wallet_story p {
+  font-size: 13px;
+  letter-spacing: 1px;
+ font-family: "Raleway",sans-serif;
+ color:#4b4b4b;
+}
+h3.story_w {
+  margin: 20px 0 30px;
+  font-family: "Raleway",sans-serif;
+  color:#c1b497;
+}
+.wallet_pct.stry.text-center .btn-secondary {
+  height: 50px;
+  width: 24%;
+}.img_hide {
+  max-width: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+.img_hide img {
+  width: 100%;
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+.fashion_w {
+  width: 45% !important;
+}
+.fashion_t {
+  width: 47% !important;
+}
+.fashion_a{
+  width: 36% !important;
+}
+.fashion_p{
+  width: 48% !important;
+}
+.fashion_camp{
+	width: 44% !important;
+}
+.fashion_h{
+	width: 47% !important;
+}
+/* ====story end========== */
+.snd_pagewlt {
+  background: #222 none repeat scroll 0 0;
+  opacity: 0.7;
+  padding: 0;
+}
+
+.snd_pagewlt .modal-dialog {
+  margin: 0 auto;
+}
+.wallet_modal .btn-primary:active{
+	background:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1300px){
+	
+.product li {
+  width: 50%;
+}
+
+}
+
+@media only screen and (max-width:992px){
+
+.sm_margin{
+	margin-top:20px;
+}
+
+.sm_center{
+	text-align:center !important;
+}
+
+.signup{
+	padding:0;
+	border:none;
+}
+
+.signup hr{
+	display:none;
+}
+
+.cart_selection {
+  border-bottom: none !important;
+}
+.wallet_pct .btn-secondary {
+  width: 50% !important;
+}
+
+}
+
+@media only screen and (max-width:768px){
+.wallet-popup .btn-primary {
+   width: 82%;
+}
+.modal-dialog {
+  width: 93%;
+}
+.modal-body.wallet_modal {
+  padding: 16px;
+}
+.modal-body.wallet_modal input, select {
+  margin: 8px 0;
+}
+.xs_margin{
+	margin-top:20px;
+}
+.wallet-popup .btn-primary {
+  width: 100%;
+}
+.modal-dialog.wallet-popup.form_w {
+  padding: 0;
+  width: 92%;
+}
+.form_w .btn-block {
+  font-size: 16px;
+}
+.wallet_pct .btn-secondary {
+  width: 70%;
+}
+.header ul li {
+  border: none !important;
+  display: block;
+  padding: 12px 0;
+}
+
+.xs_border {
+  border-top: 1px solid #5d4f32;
+  padding: 21px;
+}
+
+.product li {
+  border-top: 1px solid #fff !important;
+  border: none;
+  width: 100%;
+  width: 100%;
+}
+
+.footer_icon {
+  width: 13%;
+  margin: 3px 0 0;
+}
+
+.total_price {
+  text-align: left;
+  font-size: 27px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
